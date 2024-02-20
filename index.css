@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #0f0f0f;
+    color: #FFFFFF;
+    font-family: Inter;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    background-color: #6943FF;
+    padding: 1em;
+    margin: 10% auto 0 auto;
+    width: 550px;
+    height: 285px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 28px;
+}
+
+#input-unit {
+    outline: none;
+    border: #B295FF 2px solid;
+    height: 83px;
+    width: 117px;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    margin-top: 45px;
+    border-radius: 2px;
+}
+
+#btn-convert {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D3D3D;
+    width: 117px;
+    height: 42px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+footer {
+    width: 550px;
+    text-align: center;
+    background-color: #F4F4F4;
+    margin: 0 auto 10% auto;
+    padding: 1em;
+}
+
+.conversion-tab {
+    background-color: #FFFFFF;
+    padding: 16px;
+}
+
+.conversion-tab:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.conversion-tab h2 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conversion-tab p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox
+input[type=number] {
+    -moz-appearance: textfield;
+} */
